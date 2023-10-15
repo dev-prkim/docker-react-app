@@ -16,5 +16,5 @@ services:           # 이곳에 실행하려는 컨테이너들을 정의
       dockerfile: Dockerfile.dev
     volumes: 
      - /usr/src/app/node_modules
-     - .\:/usr/src/app
+     - ./:/usr/src/app
     command: ["npm", "run", "test"]

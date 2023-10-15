@@ -16,10 +16,10 @@ deploy:
   edge: true
   provider: elasticbeanstalk
   region: us-east-1
-  app: docker-react-app
-  env: Docker-react-app-env-1
+  app: docker-react-apptest
+  env: Docker-react-apptest-env
   bucket_name: elasticbeanstalk-us-east-1-593243147186
-  bucket_path: docker-react-app
+  bucket_path: docker-react-apptest
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
